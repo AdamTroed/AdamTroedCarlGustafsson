@@ -1,0 +1,97 @@
+﻿* {
+    font-family: 'Julius Sans One', sans-serif;
+}
+body {
+    background-color: #333;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #5b5b5b;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 0px;
+    background: url(http://julia.na/wp-content/themes/juliana/assets/css/../img/main_bg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------------- Picture ---------------------*/
+.Picwrapp {
+    margin-top: 100px;
+}
+
+picUL {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.picUL li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 600px;
+}
+
+    .picUL li a:hover {
+        background-color: #111;
+    }
+
+    .picUL li a img {
+        width: 600px;
+    }
+/*--------------- Navbar ---------------------*/
+header .top-bar .title-area h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+}
+header {
+       height: 93px;
+}
+
+#top {
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.top-bar .title-area {
+    position: relative;
+    margin: 0;
+}
+.title-area {
+    list-style-type: none;
+    overflow: hidden;
+}
+li a {
+    text-decoration: none;
+        color: #222;
+}
+.title-area li{
+    display:inline-block;
+}
+
+.title-area li a {
+text-align:center;
+}
+.scroll:hover h1 { background-color: #eee; }
+.scroll h1 {
+    background-color: black;
+    color: #76926f;
+}
+
+/*--------------- Footbar ---------------------*/
